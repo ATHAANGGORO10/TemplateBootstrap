@@ -1081,9 +1081,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-  # Features Section
+  # service Section
   --------------------------------------------------------------*/
-.features .features-item {
+.service .service-item {
     background-color: var(--surface-color);
     display: flex;
     align-items: center;
@@ -1093,13 +1093,13 @@ section,
     position: relative;
 }
 
-.features .features-item i {
+.service .service-item i {
     font-size: 32px;
     padding-right: 10px;
     line-height: 0;
 }
 
-.features .features-item h3 {
+.service .service-item h3 {
     font-weight: 700;
     margin: 0;
     padding: 0;
@@ -1107,16 +1107,16 @@ section,
     font-size: 16px;
 }
 
-.features .features-item h3 a {
+.service .service-item h3 a {
     color: var(--heading-color);
     transition: 0.3s;
 }
 
-.features .features-item:hover {
+.service .service-item:hover {
     border-color: var(--accent-color);
 }
 
-.features .features-item:hover h3 a {
+.service .service-item:hover h3 a {
     color: var(--accent-color);
 }
 
@@ -1168,47 +1168,47 @@ section,
 /*--------------------------------------------------------------
   # Details Section
   --------------------------------------------------------------*/
-.details .features-item {
+.details .service-item {
     color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
-.details .features-item+.features-item {
+.details .service-item+.service-item {
     margin-top: 100px;
 }
 
 @media (max-width: 640px) {
-    .details .features-item+.features-item {
+    .details .service-item+.service-item {
         margin-top: 40px;
     }
 }
 
-.details .features-item h3 {
+.details .service-item h3 {
     font-weight: 700;
     font-size: 26px;
 }
 
-.details .features-item ul {
+.details .service-item ul {
     list-style: none;
     padding: 0;
 }
 
-.details .features-item ul li {
+.details .service-item ul li {
     padding-bottom: 10px;
     display: flex;
     align-items: center;
 }
 
-.details .features-item ul li:last-child {
+.details .service-item ul li:last-child {
     padding-bottom: 0;
 }
 
-.details .features-item ul i {
+.details .service-item ul i {
     font-size: 20px;
     padding-right: 4px;
     color: var(--accent-color);
 }
 
-.details .features-item p:last-child {
+.details .service-item p:last-child {
     margin-bottom: 0;
 }
 
@@ -1351,18 +1351,54 @@ section,
 }
 
 /*--------------------------------------------------------------
-  # Team Section
+  # menu Section
   --------------------------------------------------------------*/
-.team .member {
+.scroll-snap-container {
+    display: flex;
+    overflow-x: auto;
+    /* Allow horizontal scrolling */
+    scroll-snap-type: x mandatory;
+    /* Snap to the nearest item on scroll */
+    scroll-behavior: smooth;
+    /* Smooth scroll behavior */
+    padding: 0 20px;
+    /* Padding to give space around the scroll area */
+    gap: 20px;
+    /* Space between items */
+    box-sizing: border-box;
+    /* Include padding in the element's total width and height */
+}
+
+/* Hide scrollbar in WebKit browsers (Chrome, Safari) */
+.scroll-snap-container::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-snap-item {
+    flex: 0 0 auto;
+    /* Prevent items from shrinking */
+    scroll-snap-align: center;
+    /* Center the item in the scroll area */
+    width: 300px;
+    /* Width of each card, adjust as needed */
     position: relative;
 }
 
-.team .member .pic {
-    overflow: hidden;
-    margin-bottom: 50px;
+.menu .member {
+    position: relative;
+    width: 100%;
+    /* Ensure the card takes the full width of .scroll-snap-item */
+    box-sizing: border-box;
+    /* Include padding in the element's total width and height */
 }
 
-.team .member .member-info {
+.menu .member .pic {
+    overflow: hidden;
+    margin-bottom: 100px;
+    /* Space below the image */
+}
+
+.menu .member .member-info {
     background-color: var(--surface-color);
     color: color-mix(in srgb, var(--default-color), transparent 20%);
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1375,7 +1411,7 @@ section,
     transition: 0.5s;
 }
 
-.team .member h4 {
+.menu .member h4 {
     font-weight: 700;
     margin-bottom: 10px;
     font-size: 16px;
@@ -1383,7 +1419,7 @@ section,
     padding-bottom: 10px;
 }
 
-.team .member h4::after {
+.menu .member h4::after {
     content: "";
     position: absolute;
     display: block;
@@ -1394,28 +1430,28 @@ section,
     left: 0;
 }
 
-.team .member span {
+.menu .member span {
     font-style: italic;
     display: block;
     font-size: 13px;
 }
 
-.team .member .social {
+.menu .member .social {
     position: absolute;
     right: 15px;
     bottom: 15px;
 }
 
-.team .member .social a {
+.menu .member .social a {
     transition: color 0.3s;
     color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-.team .member .social a:hover {
+.menu .member .social a:hover {
     color: var(--accent-color);
 }
 
-.team .member .social i {
+.menu .member .social i {
     font-size: 16px;
     margin: 0 2px;
 }

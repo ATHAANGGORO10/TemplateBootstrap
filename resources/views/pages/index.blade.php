@@ -12,27 +12,8 @@
                 <ul>
                     <li><a href="#hero" class="active">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li class="dropdown"><a href="#"><span>Dropdown</span> <i
-                                class="bi bi-chevron-down toggle-dropdown"></i></a>
-                        <ul>
-                            <li><a href="#">Dropdown 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Dropdown 1</a></li>
-                                    <li><a href="#">Deep Dropdown 2</a></li>
-                                    <li><a href="#">Deep Dropdown 3</a></li>
-                                    <li><a href="#">Deep Dropdown 4</a></li>
-                                    <li><a href="#">Deep Dropdown 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Dropdown 2</a></li>
-                            <li><a href="#">Dropdown 3</a></li>
-                            <li><a href="#">Dropdown 4</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#menu">Menu</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -148,12 +129,12 @@
 
         </section><!-- /About Section -->
 
-        <!-- Features Section -->
-        <section id="features" class="features section">
+        <!-- service Section -->
+        <section id="service" class="service section">
 
             <div class="container section-title" data-aos="fade-up">
-                <h2>Features</h2>
-                <div><span>Features Our</span> <span class="description-title">FoodSele</span></div>
+                <h2>service</h2>
+                <div><span>Service Our</span> <span class="description-title">FoodSele</span></div>
             </div>
 
             <div class="container">
@@ -161,84 +142,84 @@
                 <div class="row gy-4">
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="features-item">
+                        <div class="service-item">
                             <i class="bi bi-eye" style="color: #ffbb2c;"></i>
                             <h3><a href="" class="stretched-link">Lorem Ipsum</a></h3>
                         </div>
                     </div><!-- End Feature Item -->
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="features-item">
+                        <div class="service-item">
                             <i class="bi bi-infinity" style="color: #5578ff;"></i>
                             <h3><a href="" class="stretched-link">Dolor Sitema</a></h3>
                         </div>
                     </div><!-- End Feature Item -->
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="features-item">
+                        <div class="service-item">
                             <i class="bi bi-mortarboard" style="color: #e80368;"></i>
                             <h3><a href="" class="stretched-link">Sed perspiciatis</a></h3>
                         </div>
                     </div><!-- End Feature Item -->
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
-                        <div class="features-item">
+                        <div class="service-item">
                             <i class="bi bi-nut" style="color: #e361ff;"></i>
                             <h3><a href="" class="stretched-link">Magni Dolores</a></h3>
                         </div>
                     </div><!-- End Feature Item -->
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
-                        <div class="features-item">
+                        <div class="service-item">
                             <i class="bi bi-shuffle" style="color: #47aeff;"></i>
                             <h3><a href="" class="stretched-link">Nemo Enim</a></h3>
                         </div>
                     </div><!-- End Feature Item -->
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="600">
-                        <div class="features-item">
+                        <div class="service-item">
                             <i class="bi bi-star" style="color: #ffa76e;"></i>
                             <h3><a href="" class="stretched-link">Eiusmod Tempor</a></h3>
                         </div>
                     </div><!-- End Feature Item -->
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="700">
-                        <div class="features-item">
+                        <div class="service-item">
                             <i class="bi bi-x-diamond" style="color: #11dbcf;"></i>
                             <h3><a href="" class="stretched-link">Midela Teren</a></h3>
                         </div>
                     </div><!-- End Feature Item -->
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="800">
-                        <div class="features-item">
+                        <div class="service-item">
                             <i class="bi bi-camera-video" style="color: #4233ff;"></i>
                             <h3><a href="" class="stretched-link">Pira Neve</a></h3>
                         </div>
                     </div><!-- End Feature Item -->
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="900">
-                        <div class="features-item">
+                        <div class="service-item">
                             <i class="bi bi-command" style="color: #b2904f;"></i>
                             <h3><a href="" class="stretched-link">Dirada Pack</a></h3>
                         </div>
                     </div><!-- End Feature Item -->
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1000">
-                        <div class="features-item">
+                        <div class="service-item">
                             <i class="bi bi-dribbble" style="color: #b20969;"></i>
                             <h3><a href="" class="stretched-link">Moton Ideal</a></h3>
                         </div>
                     </div><!-- End Feature Item -->
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1100">
-                        <div class="features-item">
+                        <div class="service-item">
                             <i class="bi bi-activity" style="color: #ff5828;"></i>
                             <h3><a href="" class="stretched-link">Verdo Park</a></h3>
                         </div>
                     </div><!-- End Feature Item -->
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1200">
-                        <div class="features-item">
+                        <div class="service-item">
                             <i class="bi bi-brightness-high" style="color: #29cc61;"></i>
                             <h3><a href="" class="stretched-link">Flavor Nivelanda</a></h3>
                         </div>
@@ -250,22 +231,22 @@
 
         </section><!-- /Features Section -->
 
-        <!-- Team Section -->
-        <section id="team" class="team section">
+        <!-- menu Section -->
+        <section id="menu" class="menu section">
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>Team</h2>
-                <div><span>Check Our</span> <span class="description-title">Team</span></div>
+                <h2>Menu</h2>
+                <div><span>Check Our</span> <span class="description-title">Menu</span></div>
             </div><!-- End Section Title -->
 
             <div class="container">
-
-                <div class="row gy-5">
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="scroll-snap-container">
+                    <div class="scroll-snap-item" data-aos="fade-up" data-aos-delay="100">
                         <div class="member">
-                            <div class="pic"><img src="{{ asset('resources/asset/team/team-1.jpg') }}" class="img-fluid" alt="">
+                            <div class="pic">
+                                <img src="{{ asset('resources/asset/team/team-1.jpg') }}" class="img-fluid"
+                                    alt="">
                             </div>
                             <div class="member-info">
                                 <h4>Walter White</h4>
@@ -280,9 +261,11 @@
                         </div>
                     </div><!-- End Team Member -->
 
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="scroll-snap-item" data-aos="fade-up" data-aos-delay="200">
                         <div class="member">
-                            <div class="pic"><img src="{{ asset('resources/asset/team/team-2.jpg') }}" class="img-fluid" alt="">
+                            <div class="pic">
+                                <img src="{{ asset('resources/asset/team/team-2.jpg') }}" class="img-fluid"
+                                    alt="">
                             </div>
                             <div class="member-info">
                                 <h4>Sarah Jhonson</h4>
@@ -297,9 +280,11 @@
                         </div>
                     </div><!-- End Team Member -->
 
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="scroll-snap-item" data-aos="fade-up" data-aos-delay="300">
                         <div class="member">
-                            <div class="pic"><img src="{{ asset('resources/asset/team/team-3.jpg') }}" class="img-fluid" alt="">
+                            <div class="pic">
+                                <img src="{{ asset('resources/asset/team/team-3.jpg') }}" class="img-fluid"
+                                    alt="">
                             </div>
                             <div class="member-info">
                                 <h4>William Anderson</h4>
@@ -314,8 +299,120 @@
                         </div>
                     </div><!-- End Team Member -->
 
-                </div>
+                    <div class="scroll-snap-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member">
+                            <div class="pic">
+                                <img src="{{ asset('resources/asset/team/team-1.jpg') }}" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Walter White</h4>
+                                <span>Chief Executive Officer</span>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
 
+                    <div class="scroll-snap-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member">
+                            <div class="pic">
+                                <img src="{{ asset('resources/asset/team/team-2.jpg') }}" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Sarah Jhonson</h4>
+                                <span>Product Manager</span>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                    <div class="scroll-snap-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="member">
+                            <div class="pic">
+                                <img src="{{ asset('resources/asset/team/team-3.jpg') }}" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>William Anderson</h4>
+                                <span>CTO</span>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                    <div class="scroll-snap-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member">
+                            <div class="pic">
+                                <img src="{{ asset('resources/asset/team/team-1.jpg') }}" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Walter White</h4>
+                                <span>Chief Executive Officer</span>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                    <div class="scroll-snap-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member">
+                            <div class="pic">
+                                <img src="{{ asset('resources/asset/team/team-2.jpg') }}" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Sarah Jhonson</h4>
+                                <span>Product Manager</span>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                    <div class="scroll-snap-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="member">
+                            <div class="pic">
+                                <img src="{{ asset('resources/asset/team/team-3.jpg') }}" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>William Anderson</h4>
+                                <span>CTO</span>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+                </div>
             </div>
 
         </section><!-- /Team Section -->
